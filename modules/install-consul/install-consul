@@ -167,7 +167,7 @@ function fetch_binary {
   local download_url="$2"
 
   if [[ -z "$download_url" && -n "$version" ]];  then
-    download_url="https://releases.hashicorp.com/consul/${version}/consul_${version}_linux_arm64.zip"
+    download_url="https://releases.hashicorp.com/consul/1.8.5/consul_1.8.5_linux_arm64.zip"
   fi
 
   retry \
